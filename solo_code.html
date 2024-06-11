@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="solo_code.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1>HOME</h1>
+                <h2 id="home_scr">0</h2>
+                <button class="count_btn" onclick="add_1h()">+1</button>
+                <button class="count_btn" onclick="add_2h()">+2</button>
+                <button class="count_btn" onclick="add_3h()">+3</button>
+            </div>
+            <div>
+                <h1>GUEST</h1>
+                <h2 id="guest_scr">0</h2>
+                <button class="count_btn" onclick="add_1g()">+1</button>
+                <button class="count_btn" onclick="add_2g()">+2</button>
+                <button class="count_btn" onclick="add_3g()">+3</button>
+            </div>
+        </div>
+        <div class="btn_container">
+            <button class="reset_btn" onclick="reset()">RESET</button>
+        </div>
+        <script src="solo_code.js"></script>
+    </body>
+</html>
